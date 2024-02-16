@@ -1,0 +1,185 @@
+/* CircleRotation.css */
+
+.circular-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: rotate 50s linear infinite;
+  }
+  
+  .circular-container img {
+    position: absolute;
+  }
+  
+  .circular-container img:nth-child(1) {
+    left: 45%;
+    top: -5%;
+  }
+  
+  .circular-container img:nth-child(2) {
+    left: 15%;
+    top: 5%;
+  }
+  
+  .circular-container img:nth-child(3) {
+    left: -5%;
+    top: 30%;
+  }
+  
+  .circular-container img:nth-child(4) {
+    left: 0;
+    bottom: 30%;
+  }
+  .circular-container img:nth-child(5) {
+    left: 15%;
+    bottom: 5%;
+  }
+  .circular-container img:nth-child(6) {
+    left: 45%;
+    bottom: -5%;
+  }
+  .circular-container img:nth-child(7) {
+    right: 15%;
+    bottom: 5%;
+  }
+  .circular-container img:nth-child(8) {
+    right: 0%;
+    bottom: 30%;
+  }
+  .circular-container img:nth-child(9) {
+    right: -5%;
+    top: 30%;
+  }
+  .circular-container img:nth-child(10) {
+    right: 15%;
+    top: 5%;
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .circular-container img:nth-child(1) {
+    animation: img1Rotate 50s linear infinite;
+  }
+  
+  .circular-container img:nth-child(2) {
+    animation: img2Rotate 50s linear infinite;
+  }
+  
+  .circular-container img:nth-child(3) {
+    animation: img3Rotate 50s linear infinite;
+  }
+  
+  .circular-container img:nth-child(4) {
+    animation: img4Rotate 50s linear infinite;
+  }
+  .circular-container img:nth-child(5) {
+    animation: img5Rotate 50s linear infinite;
+  }
+  .circular-container img:nth-child(6) {
+    animation: img6Rotate 50s linear infinite;
+  }
+  .circular-container img:nth-child(7) {
+    animation: img7Rotate 50s linear infinite;
+  }
+  .circular-container img:nth-child(8) {
+    animation: img8Rotate 50s linear infinite;
+  }
+  .circular-container img:nth-child(9) {
+    animation: img9Rotate 50s linear infinite;
+  }
+  .circular-container img:nth-child(10) {
+    animation: img10Rotate 50s linear infinite;
+  }
+  
+  @keyframes img1Rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(-360deg);
+    }
+  }
+  
+  @keyframes img2Rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(-360deg);
+    }
+  }
+  
+  @keyframes img3Rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(-360deg);
+    }
+  }
+  
+  @keyframes img4Rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(-360deg);
+    }
+  }
+  @keyframes img5Rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(-360deg);
+    }
+  }
+  @keyframes img6Rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(-360deg);
+    }
+  }
+  @keyframes img7Rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(-360deg);
+    }
+  }
+  @keyframes img8Rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(-360deg);
+    }
+  }
+  @keyframes img9Rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(-360deg);
+    }
+  }
+  @keyframes img10Rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(-360deg);
+    }
+  }
+  
