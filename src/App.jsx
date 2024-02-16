@@ -1,5 +1,6 @@
 
 import './App.css'
+import About from './components/About'
 import Banner from './components/Banner/Banner'
 import Navbar from './components/Navbar'
 
@@ -10,8 +11,8 @@ function App() {
     <div id="home">
       <Navbar />
       <Banner />
-      {/* <About />
-      <Skills />
+      <About />
+      {/* <Skills />
       <Projects />
       <Contact />
       <Footer /> */}

@@ -37,8 +37,8 @@ const Navbar = () => {
             href=""
             className={
               activeSection === ""
-                ? " text-primary underline underline-offset-[6px] decoration-primary decoration-2"
-                : "hover:underline underline-offset-[6px] decoration-2 decoration-primary"
+                ? " text-sky-500 underline underline-offset-[6px] decoration-sky-400 decoration-2"
+                : "hover:underline underline-offset-[6px] decoration-2 decoration-sky-400"
             }
           >
             Home
@@ -47,8 +47,8 @@ const Navbar = () => {
             href="#about"
             className={
               activeSection === "about"
-                ? " text-primary underline underline-offset-[6px] decoration-primary decoration-2"
-                : "hover:underline underline-offset-[6px] decoration-2 decoration-primary"
+                ? " text-sky-500 underline underline-offset-[6px] decoration-sky-400 decoration-2"
+                : "hover:underline underline-offset-[6px] decoration-2 decoration-sky-400"
             }
           >
             About Me
@@ -57,8 +57,8 @@ const Navbar = () => {
             href="#skills"
             className={
               activeSection === "skills"
-                ? " text-primary underline underline-offset-[6px] decoration-primary decoration-2"
-                : "hover:underline underline-offset-[6px] decoration-2 decoration-primary"
+                ? " text-sky-500 underline underline-offset-[6px] decoration-sky-400 decoration-2"
+                : "hover:underline underline-offset-[6px] decoration-2 decoration-sky-400"
             }
           >
             Skills
@@ -67,8 +67,8 @@ const Navbar = () => {
             href="#projects"
             className={
               activeSection === "projects"
-                ? " text-primary underline underline-offset-[6px] decoration-primary decoration-2"
-                : "hover:underline underline-offset-[6px] decoration-2 decoration-primary"
+                ? " text-sky-500 underline underline-offset-[6px] decoration-sky-400 decoration-2"
+                : "hover:underline underline-offset-[6px] decoration-2 decoration-sky-400"
             }
           >
             Projects
@@ -77,8 +77,8 @@ const Navbar = () => {
             href="#contact"
             className={
               activeSection === "contact"
-                ? " text-primary underline underline-offset-[6px] decoration-primary decoration-2"
-                : "hover:underline underline-offset-[6px] decoration-2 decoration-primary"
+                ? " text-sky-500 underline underline-offset-[6px] decoration-primary decoration-2"
+                : "hover:underline underline-offset-[6px] decoration-2 decoration-sky-400"
             }
           >
             Contact
@@ -134,8 +134,8 @@ const Navbar = () => {
               href=""
               className={
                 activeSection === ""
-                  ? " text-primary underline underline-offset-[6px] decoration-primary decoration-2 btn bg-white/10 hover:bg-white/10 border-none"
-                  : "hover:underline underline-offset-[6px] decoration-2 decoration-primary btn bg-white/5 hover:bg-white/10 text-white border-none"
+                  ? " text-sky-500 underline underline-offset-[6px] decoration-sky-400 decoration-2 btn bg-white/10 hover:bg-white/10 border-none"
+                  : "hover:underline underline-offset-[6px] decoration-2 decoration-sky-400 btn bg-white/5 hover:bg-white/10 text-white border-none"
               }
             >
               Home
@@ -144,8 +144,8 @@ const Navbar = () => {
               href="#about"
               className={
                 activeSection === "about"
-                  ? " text-primary underline underline-offset-[6px] decoration-primary decoration-2 btn bg-white/10 hover:bg-white/10 border-none"
-                  : "hover:underline underline-offset-[6px] decoration-2 decoration-primary btn bg-white/5 hover:bg-white/10 text-white border-none"
+                  ? " text-sky-500 underline underline-offset-[6px] decoration-sky-400 decoration-2 btn bg-white/10 hover:bg-white/10 border-none"
+                  : "hover:underline underline-offset-[6px] decoration-2 decoration-sky-400 btn bg-white/5 hover:bg-white/10 text-white border-none"
               }
             >
               About Me
@@ -154,8 +154,8 @@ const Navbar = () => {
               href="#skills"
               className={
                 activeSection === "skills"
-                  ? " text-primary underline underline-offset-[6px] decoration-primary decoration-2 btn bg-white/10 hover:bg-white/10 border-none"
-                  : "hover:underline underline-offset-[6px] decoration-2 decoration-primary btn bg-white/5 hover:bg-white/10 text-white border-none"
+                  ? " text-sky-500 underline underline-offset-[6px] decoration-sky-400 decoration-2 btn bg-white/10 hover:bg-white/10 border-none"
+                  : "hover:underline underline-offset-[6px] decoration-2 decoration-sky-400 btn bg-white/5 hover:bg-white/10 text-white border-none"
               }
             >
               Skills
@@ -164,8 +164,8 @@ const Navbar = () => {
               href="#projects"
               className={
                 activeSection === "projects"
-                  ? " text-primary underline underline-offset-[6px] decoration-primary decoration-2 btn bg-white/10 hover:bg-white/10 border-none"
-                  : "hover:underline underline-offset-[6px] decoration-2 decoration-primary btn bg-white/5 hover:bg-white/10 text-white border-none"
+                  ? " text-sky-500 underline underline-offset-[6px] decoration-sky-400 decoration-2 btn bg-white/10 hover:bg-white/10 border-none"
+                  : "hover:underline underline-offset-[6px] decoration-2 decoration-sky-400 btn bg-white/5 hover:bg-white/10 text-white border-none"
               }
             >
               Projects
@@ -174,8 +174,8 @@ const Navbar = () => {
               href="#contact"
               className={
                 activeSection === "contact"
-                  ? " text-primary underline underline-offset-[6px] decoration-primary decoration-2 btn bg-white/10 hover:bg-white/10 border-none"
-                  : "hover:underline underline-offset-[6px] decoration-2 decoration-primary btn bg-white/5 hover:bg-white/10 text-white border-none"
+                  ? " text-sky-500 underline underline-offset-[6px] decoration-sky-400 decoration-2 btn bg-white/10 hover:bg-white/10 border-none"
+                  : "hover:underline underline-offset-[6px] decoration-2 decoration-sky-400 btn bg-white/5 hover:bg-white/10 text-white border-none"
               }
             >
               Contact
