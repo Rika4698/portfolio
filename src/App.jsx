@@ -5,6 +5,7 @@ import Banner from './components/Banner/Banner'
 import Contact from './components/Contact'
 import Education from './components/Education'
 import Experience from './components/Experience'
+import Footer from './components/Footer'
 import Navbar from './components/Navbar'
 import Projects from './components/Projects'
 
@@ -20,7 +21,7 @@ function App() {
       <Education/>
       <Projects />
       <Contact />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   )
 }

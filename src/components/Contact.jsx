@@ -5,7 +5,7 @@
 import { BsWhatsapp } from "react-icons/bs";
 import { BsMessenger } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
-import { useRef, useState } from "react";
+import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import toast from "react-hot-toast";
 import { Toaster } from 'react-hot-toast';
@@ -59,7 +59,7 @@ const Contact = () => {
             data-aos="fade-right"
             data-aos-duration="1000"
           >
-            <div className="flex items-center gap-6">
+            <div className="flex items-center gap-6 ml-10">
               <MdEmail className="w-8 h-8 text-sky-400" />
               <div className="font-clashDisplay">
                 <h3 className="font-medium"> Email Address</h3>
@@ -67,14 +67,14 @@ const Contact = () => {
               
               </div>
             </div>
-            <div className="flex items-center gap-6">
+            <div className="flex items-center gap-6 ml-10">
               <BsMessenger className="w-8 h-8 text-sky-400" />
               <div className="font-clashDisplay">
                 <h3 className="font-medium">Messenger</h3>
                 <h5>Sharmin Rika </h5><a href="https://m.me/sharmin.sadia.3701" target="_blank" rel="noopener noreferrer" className="text-sky-400 font-bold hover:text-primary">Send a message</a>
               </div>
             </div>
-            <div className="flex items-center gap-6">
+            <div className="flex items-center gap-6 ml-10">
               <BsWhatsapp className="w-8 h-8 text-sky-400" />
               <div className="font-clashDisplay">
                 <h3 className="font-medium">Whatsapp</h3>
