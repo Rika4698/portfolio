@@ -5,6 +5,7 @@ import Banner from './components/Banner/Banner'
 import Education from './components/Education'
 import Experience from './components/Experience'
 import Navbar from './components/Navbar'
+import Projects from './components/Projects'
 
 function App() {
  
@@ -16,8 +17,8 @@ function App() {
       <About />
       <Experience />
       <Education/>
-      {/* <Projects />
-      <Contact />
+      <Projects />
+      {/* <Contact />
       <Footer /> */}
     </div>
   )
