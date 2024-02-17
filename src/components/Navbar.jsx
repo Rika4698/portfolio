@@ -61,7 +61,17 @@ const Navbar = () => {
                 : "hover:underline underline-offset-[6px] decoration-2 decoration-sky-400"
             }
           >
-            Skills
+            Experience
+          </a>
+          <a
+            href="#education"
+            className={
+              activeSection === "education"
+                ? " text-sky-500 underline underline-offset-[6px] decoration-sky-400 decoration-2"
+                : "hover:underline underline-offset-[6px] decoration-2 decoration-sky-400"
+            }
+          >
+            Education
           </a>
           <a
             href="#projects"
@@ -158,7 +168,17 @@ const Navbar = () => {
                   : "hover:underline underline-offset-[6px] decoration-2 decoration-sky-400 btn bg-white/5 hover:bg-white/10 text-white border-none"
               }
             >
-              Skills
+              Experience
+            </a>
+            <a
+              href="#education"
+              className={
+                activeSection === "education"
+                  ? " text-sky-500 underline underline-offset-[6px] decoration-sky-400 decoration-2 btn bg-white/10 hover:bg-white/10 border-none"
+                  : "hover:underline underline-offset-[6px] decoration-2 decoration-sky-400 btn bg-white/5 hover:bg-white/10 text-white border-none"
+              }
+            >
+              Education
             </a>
             <a
               href="#projects"
