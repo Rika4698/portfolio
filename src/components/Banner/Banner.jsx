@@ -14,7 +14,7 @@ import banner9 from "../../assets/expres.js.png";
 import banner10 from "../../assets/mongodb.svg";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import "./Banner.css";
-// import PDFDownloadButton from "../PDFDownloadButton";
+import PDFDownloadButton from "../PDFDownloadButton";
 
 const Banner = () => {
   const particlesInit = useCallback(async (engine) => {
@@ -96,7 +96,7 @@ const Banner = () => {
       <div className="absolute left-0 top-12 sm:top-24 lg:top-0 w-full h-full lg:py-20">
         <div className="h-full max-w-7xl mx-5 md:mx-10 xl:mx-auto flex flex-col-reverse lg:flex-row lg:items-center sm:gap-8 lg:gap-16">
           <div className="flex-1 text-2xl md:text-5xl text-center lg:text-start">
-            <h3>Hello ,</h3>
+            <h3 className="pt-4 lg:pt-0">Hello ,</h3>
             <h3 className="my-2 lg:mb-5">
               I&apos;m
               <span className="mx-2 lg:mx-5">Sharmin Akter Reka</span> 
@@ -119,7 +119,7 @@ const Banner = () => {
                 Contact Me
               </a>
               <div className="divider divider-horizontal divider-info opacity-40 mx-2 lg:mx-4"></div>
-              {/* <PDFDownloadButton /> */}
+              <PDFDownloadButton />
             </div>
           </div>
           <div className="flex-1 h-full w-full flex items-center justify-center overflow-hidden select-none">

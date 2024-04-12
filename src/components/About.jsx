@@ -1,16 +1,20 @@
+
 import image from "../assets/mern-stack-development-webbybutter.png";
+import PDFDownload from "./PDFDownload";
+
 // import PDFDownloadButton from "./PDFDownloadButton";
+
 
 const About = () => {
   return (
     <div id="about" className="py-20 bg-gray-900 text-white">
       <div className="max-w-7xl mx-5 md:mx-10 xl:mx-auto">
-        <h3 className="text-4xl text-center font-clashDisplay font-semibold underline underline-offset-8 decoration-sky-400">
+        <h3 className="text-4xl text-center font-clashDisplay font-semibold underline underline-offset-8 decoration-sky-400 md:pt-20">
           About Me
         </h3>
-        <div className="flex flex-col lg:flex-row-reverse items-center gap-10 pt-16">
+        <div className="flex flex-col lg:flex-row-reverse items-center gap-12 pt-16 lg:mx-6">
           <div className="flex-1">
-            <img src={image} alt="" />
+            <img className="md:w-96 lg:w-auto lg:h-[500px]" src={image} alt="" />
           </div>
           <div className="flex-1">
             <h3 className="text-2xl font-bold">Hello , </h3>
@@ -21,7 +25,7 @@ const About = () => {
                 href="https://www.programming-hero.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-semibold underline"
+                className="font-semibold underline text-blue-400"
               >
                 Programming-Hero
               </a>{" "}
@@ -47,6 +51,7 @@ const About = () => {
             </p>
             <div className="flex items-center justify-center my-10">
               {/* <PDFDownloadButton /> */}
+              <PDFDownload/>
             </div>
           </div>
         </div>

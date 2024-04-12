@@ -1,6 +1,7 @@
 import facebookLogo from "./../../src/assets/skills/download.png";
 import GmailLogo from "./../../src/assets/skills/gmail.png";
 import GitHubLogo from "./../../src/assets/skills/github-icon.png";
+import PDFDownloadButton from "./PDFDownloadButton";
 
 const Footer = () => {
     return (
@@ -13,15 +14,15 @@ const Footer = () => {
               src={logo}
               alt=""
             /> */}
-            <div className="">
-              {" "}
-              <h3 className="text-xl lg:text-2xl font-semibold font-clashDisplay">
+            <div className="ml-4 text-lg lg:ml-0">
+              
+              <h3 className="text-xl lg:text-2xl font-semibold font-clashDisplay ">
                 Sharmin Akter Reka
               </h3>
-              <small>A Frontend Developer</small>
+              <small className="ml-4 lg:ml-0">A Frontend Developer</small>
             </div>
           </div>
-          {/* <PDFDownloadButton /> */}
+          <PDFDownloadButton  />
           <div className="flex items-center gap-8">
             <a
               href="https://www.facebook.com/sharmin.sadia.3701/"
@@ -51,7 +52,7 @@ const Footer = () => {
           <small>
             Copyright © 2023 - All right reserved by{" "}
             <a
-            //   href="https://mdnuruzzaman.web.app/"
+              href="https://my-portfolio-df10f.web.app/"
               className="underline font-semibold"
             >
               Sharmin Akter Reka

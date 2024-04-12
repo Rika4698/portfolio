@@ -53,28 +53,28 @@ const Contact = () => {
           Feel free to Contact me by submitting the form below and I will get
           back to you as soon as possible
         </p>
-        <div className="flex flex-col lg:flex-row lg:items-center gap-16 py-20">
+        <div className="flex flex-col lg:flex-row lg:items-center gap-16 py-20 lg:px-0">
           <div
-            className="flex-[3] space-y-10"
+            className=" space-y-10 ml-16 md:ml-48 md:text-xl lg:mx-12 xl:mx-10"
             data-aos="fade-right"
             data-aos-duration="1000"
           >
-            <div className="flex items-center gap-6 ml-10">
-              <MdEmail className="w-8 h-8 text-sky-400" />
+            <div className="flex items-center gap-6 ">
+              <MdEmail className="w-10 h-10 text-sky-400" />
               <div className="font-clashDisplay">
                 <h3 className="font-medium"> Email Address</h3>
                 <h5>rika_cse_1819@istt.edu.bd</h5><a href="mailto:rika_cse_1819@istt.edu.bd" target="_blank" rel="noopener noreferrer" className="text-sky-400 font-bold hover:text-primary">Send a message</a>
               
               </div>
             </div>
-            <div className="flex items-center gap-6 ml-10">
+            <div className="flex items-center gap-6 ">
               <BsMessenger className="w-8 h-8 text-sky-400" />
               <div className="font-clashDisplay">
                 <h3 className="font-medium">Messenger</h3>
                 <h5>Sharmin Rika </h5><a href="https://m.me/sharmin.sadia.3701" target="_blank" rel="noopener noreferrer" className="text-sky-400 font-bold hover:text-primary">Send a message</a>
               </div>
             </div>
-            <div className="flex items-center gap-6 ml-10">
+            <div className="flex items-center gap-6 ">
               <BsWhatsapp className="w-8 h-8 text-sky-400" />
               <div className="font-clashDisplay">
                 <h3 className="font-medium">Whatsapp</h3>
@@ -87,9 +87,9 @@ const Contact = () => {
           <form
             ref={form}
             onSubmit={sendEmail}
-            className="flex-[5] font-clashDisplay"
+            className="flex-[5] font-clashDisplay "
           >
-            <div className="flex flex-col lg:flex-row gap-5">
+            <div className="flex flex-col lg:flex-row gap-5 ">
               <div className="flex-1">
                 <label className="font-medium" htmlFor="">
                   Name

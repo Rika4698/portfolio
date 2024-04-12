@@ -10,15 +10,15 @@ const Projects = () => {
             My Projects
           </h3>
   
-          {/* project 1 */}
-          {/* <h3 className="text-2xl text-center font-clashDisplay font-semibold underline underline-offset-8 decoration-primary mt-16 mb-5">
+          {/* project 1  */}
+           {/* <h3 className="text-2xl text-center font-clashDisplay font-semibold underline underline-offset-8 decoration-primary mt-16 mb-5">
             Project 1
-          </h3> */}
+          </h3>  */}
           <div className="flex flex-col mt-8 lg:flex-row items-center gap-5 lg:gap-16">
             <div className="flex-1 overflow-hidden">
               <a
                 target="_blank"
-                href="https://invento-wave.web.app/"
+                href="https://polling-and-survey-client.web.app/"
                 rel="noreferrer"
               >
                 <img
@@ -118,10 +118,10 @@ const Projects = () => {
             </div>
           </div>
   
-          {/* project 2 */}
-          {/* <h3 className="text-2xl text-center font-clashDisplay font-semibold underline underline-offset-8 decoration-sky-400 mt-16 mb-5">
+           {/* project 2  */}
+           {/* <h3 className="text-2xl text-center font-clashDisplay font-semibold underline underline-offset-8 decoration-sky-400 mt-16 mb-5">
             Project 2
-          </h3> */}
+          </h3>  */}
           <div className="flex flex-col-reverse mt-14 lg:flex-row items-center gap-5 lg:gap-16">
             <div className="flex-1">
               <div className="mt-5">
@@ -210,7 +210,7 @@ const Projects = () => {
             <div className="flex-1 overflow-hidden">
               <a
                 target="_blank"
-                href="https://library-hub-ef83f.web.app/"
+                href="https://online-job-marketplaces-client.web.app/"
                 rel="noreferrer"
               >
                 <img
@@ -222,15 +222,15 @@ const Projects = () => {
             </div>
           </div>
   
-          {/* project 3 */}
-          {/* <h3 className="text-2xl text-center font-clashDisplay font-semibold underline underline-offset-8 decoration-primary mt-16 mb-5">
+           {/* project 3 */}
+           {/* <h3 className="text-2xl text-center font-clashDisplay font-semibold underline underline-offset-8 decoration-primary mt-16 mb-5">
             Project 3
-          </h3> */}
+          </h3>  */}
           <div className="flex flex-col mt-14 lg:flex-row items-center gap-5 lg:gap-16">
             <div className="flex-1 overflow-hidden">
               <a
                 target="_blank"
-                href="https://brand-shop-61d84.web.app/"
+                href="https://food-beverage-website-client.web.app/"
                 rel="noreferrer"
               >
                 <img
