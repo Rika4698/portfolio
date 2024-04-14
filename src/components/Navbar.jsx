@@ -20,8 +20,8 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="w-full fixed top-0 bg-gray-900 z-[100] text-white overflow-hidden">
-      <div className="max-w-7xl mx-5 md:mx-10 xl:mx-auto py-6 flex items-center justify-between">
+    <nav className="w-full h-[62px] fixed top-0 bg-gray-900 z-[100] text-white overflow-hidden">
+      <div className="max-w-7xl mx-5 md:mx-10 xl:mx-auto lg:-mt-1 py-6 flex items-center justify-between">
         <div className="flex items-center gap-3">
           {/* <img
             className="w-8 rounded-full outline-none border-none"
@@ -95,7 +95,7 @@ const Navbar = () => {
           </a>
         </div>
         <div className="flex lg:hidden">
-          <label className="btn btn-circle bg-white hover:bg-white swap swap-rotate">
+          <label className="btn btn-circle bg-white hover:bg-white swap swap-rotate -mt-4">
             {/* this hidden checkbox controls the state */}
             <input onClick={() => setNavOpen(!navOpen)} type="checkbox" />
 
