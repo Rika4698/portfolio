@@ -8,7 +8,7 @@ import { useState } from "react";
 const PortfolioItem = ({
   title,
   img,
-//   Description,
+  Description,
   live,
   front,
   back,
@@ -34,7 +34,7 @@ const PortfolioItem = ({
       </div>
       {modal && (
         <div className="portfolio__modal   fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-60">
-        <div className="portfolio__modal-content  text-white bg-gray-800 p-6 rounded-2xl md:w-[700px] lg:w-[750px] min-h-[350px] mt-[190px] mx-4  md:mt-20 ">
+        <div className="portfolio__modal-content  text-white bg-gray-800 p-6 rounded-2xl md:w-[700px] lg:w-[750px] min-h-[350px]  mx-4  md:mt-20 ">
             <button
               className="w-10 h-10 rounded-full bg-sky-400 hover:bg-sky-600 -ml-1 mt-0 "
               onClick={toggleModal}
@@ -54,8 +54,8 @@ const PortfolioItem = ({
                 />
               </svg>
             </button>
-            <h3 className=" text-xl text-purple-300 font-bold -mt-10  mb-4 ml-28 md:ml-[200px] lg:ml-[250px] md:text-3xl">{title}</h3>
-            <div className="flex pb-4 md:text-lg justify-between underline  md:gap-24 gap-5  text-blue-500 pt-2">
+            <h3 className=" text-xl text-purple-300 font-bold -mt-10  mb-4 ml-[85px] md:ml-[200px] lg:ml-[250px] md:text-3xl">{title}</h3>
+            <div className="flex pb-4 md:text-lg justify-between underline  md:gap-24 gap-5  text-blue-500 pt-6">
               <a
               target="_blank"
                 href={front}
@@ -86,7 +86,7 @@ const PortfolioItem = ({
                 Live site{" "}
               </a>
             </div>
-            {/* <p className="modal__title text-xl font-bold">Description:  <span className="text-base text-slate-300 font-medium ml-2">{Description}</span></p> */}
+            <p className=" text-xl pt-2 font-bold hidden sm:inline">Description:  <span className="text-base text-slate-300 font-medium ml-2">{Description}</span></p>
             <div className="pt-2">
               <h3 className="text-xl flex gap-2 font-bold items-center">
                 <MdFeaturedVideo /> Key Features of project :

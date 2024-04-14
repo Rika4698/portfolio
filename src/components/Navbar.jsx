@@ -101,7 +101,7 @@ const Navbar = () => {
 
             {/* hamburger icon */}
             <svg
-              className="swap-off fill-current"
+              className="swap-off fill-current text-black"
               xmlns="http://www.w3.org/2000/svg"
               width="32"
               height="32"
@@ -112,7 +112,7 @@ const Navbar = () => {
 
             {/* close icon */}
             <svg
-              className="swap-on fill-current"
+              className="swap-on fill-current text-black"
               xmlns="http://www.w3.org/2000/svg"
               width="32"
               height="32"

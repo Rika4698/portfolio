@@ -39,7 +39,7 @@ const About = () => {
               </span>
               <span className="block my-3">
                 {/* I&apos;m driven by the chance to contribute to innovative */}
-                I always look forward to learning new things that boost my skill as well as confidence. I am self-motivated, hard worker and good listener, versatile and fit in solo or team. In my pastime I go for travelling and read different books.
+                I always look forward to learning new things that boost my skill as well as confidence. I am self-motivated, hard worker and good listener, versatile and fit in solo or team. In my pastime I go for travel and read different books.
               </span>
               <span>
                 Currently shaping my professional narrative, I am eager to apply

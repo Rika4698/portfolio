@@ -9,7 +9,7 @@ const Education = () => {
       >
         My Education
       </h3>
-      <div className="container mx-auto my-20 px-6 md:pl-10">
+      <div className="container mx-auto my-20 px-8 md:pl-10">
         <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
           <li>
             <div className="timeline-middle">
@@ -28,13 +28,13 @@ const Education = () => {
             </div>
             <div className="timeline-start md:text-end mb-10">
               <time className="font-mono italic">Bachelor of Science(2018-current)</time>
-              <div className="text-lg font-black">Institute of Science Trade & Technology</div>B.Sc(HONS) in Computer Science & Engineering
+              <div className="text-base font-black md:text-lg">Institute of Science Trade & Technology</div>B.Sc(HONS) in Computer Science & Engineering
             </div>
             <hr className="bg-black" />
           </li>
           <li>
-            <hr />
-            <div className="timeline-middle">
+            <hr className="bg-white"/>
+            <div className="timeline-middle ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
@@ -50,9 +50,9 @@ const Education = () => {
             </div>
             <div className="timeline-end mb-10">
               <time className="font-mono italic">Complete Web Development Course(frontend,2023)</time>
-              <div className="text-lg font-black">Programming Hero</div>Web Development
+              <div className="text-base font-black md:text-lg">Programming Hero</div>Web Development
             </div>
-            <hr />
+            <hr className="bg-white" />
           </li>
         </ul>
       </div>
