@@ -25,7 +25,7 @@ export const portfolio = [
         },
         {
           id: 2,
-          f2: "2. Role-Based Dashboards.",
+          f2: "2. Role-Based Dashboards. (Admin email:person12@gmail.com, Admin password:*Person4 )",
         },
         {
           id: 3,

@@ -42,7 +42,7 @@ const Contact = () => {
 
 
   return (
-    <div id="contact" className="py-20 bg-gray-900 text-white">
+    <div id="contact" className="py-20 bg-gray-800 text-white">
         
       <div className="max-w-7xl mx-5 md:mx-10 xl:mx-auto">
       <Toaster />
@@ -95,7 +95,7 @@ const Contact = () => {
                   Name
                 </label>
                 <input
-                  className="w-full mt-2 px-4 py-2 text-black bg-white font-redHatDisplay font-medium border border-transparent outline-none focus:border-primary rounded"
+                  className="w-full mt-2 px-4 py-2 text-black bg-white font-redHatDisplay font-medium border border-transparent outline-none focus:ring ring-blue-500 rounded"
                   placeholder="Enter name..."
                   type="text"
                   name="from_name"
@@ -109,7 +109,7 @@ const Contact = () => {
                   Email
                 </label>
                 <input
-                  className="w-full mt-2 px-4 py-2 text-black bg-white font-redHatDisplay font-medium border border-transparent outline-none focus:border-primary rounded"
+                  className="w-full mt-2 px-4 py-2 text-black bg-white font-redHatDisplay font-medium border border-transparent outline-none focus:ring ring-blue-500 rounded"
                   placeholder="Enter email..."
                   type="email"
                   name="from_email"
@@ -127,7 +127,7 @@ const Contact = () => {
                 id="textAria"
                 cols="30"
                 rows="6"
-                className="w-full mt-2 px-3 py-2 text-black bg-white font-redHatDisplay font-medium border border-transparent outline-none focus:border-primary rounded cursor-text"
+                className="w-full mt-2 px-3 py-2 text-black bg-white font-redHatDisplay font-medium border border-transparent outline-none focus:ring ring-blue-500 rounded cursor-text"
                 placeholder="Enter message..."
                 required
               ></textarea>

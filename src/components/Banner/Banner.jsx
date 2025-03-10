@@ -23,7 +23,7 @@ const Banner = () => {
 
   return (
     <div className="h-screen relative text-white font-clashDisplay font-semibold">
-      <div className="bg-gray-900 h-full  relative -z-50 py-20">
+      <div className="bg-gray-800 h-full  relative -z-50 py-20">
         <Particles
           className="w-full h-full absolute top-0 -z-50"
           init={particlesInit}

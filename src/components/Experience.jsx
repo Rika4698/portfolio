@@ -19,7 +19,7 @@ import VsCodeLogo from "./../../src/assets/skills/vscode.png";
 const Experience = () => {
     return (
         <div>
-            <div id="skills" className=" py-20 bg-gray-900 text-white">
+            <div id="skills" className=" py-20 bg-gray-800 text-white">
       <h3 className="text-4xl text-center font-clashDisplay font-semibold underline underline-offset-8 decoration-sky-400">
           My Experience 
         </h3>

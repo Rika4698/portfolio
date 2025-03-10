@@ -18,7 +18,7 @@ const Portfolio = () => {
     //     ))}
     //   </div>
     // </section>
-    <section id="projects" className=" py-20 bg-gray-900">
+    <section id="projects" className=" py-20 bg-gray-800">
     <h2 className="text-white text-4xl text-center font-clashDisplay font-semibold underline underline-offset-8 decoration-sky-400">My Projects</h2>
     <div className="mx-10 mt-8 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
       {portfolio.map((item) => (

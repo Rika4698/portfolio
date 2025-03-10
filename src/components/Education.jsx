@@ -2,7 +2,7 @@
 
 const Education = () => {
     return (
-        <div id="education" className="py-20 bg-gray-900 text-white ">
+        <div id="education" className="py-20 bg-gray-800 text-white ">
       <h3
         className="text-4xl text-center font-clashDisplay font-semibold underline underline-offset-8 decoration-sky-400"
         data-aos="fade-down"
@@ -27,7 +27,7 @@ const Education = () => {
               </svg>
             </div>
             <div className="timeline-start md:text-end mb-10">
-              <time className="font-mono italic">Bachelor of Science(2018-current)</time>
+              <time className="font-mono italic">Bachelor of Science(2018-2024)</time>
               <div className="text-base font-black md:text-lg">Institute of Science Trade & Technology</div>B.Sc(HONS) in Computer Science & Engineering
             </div>
             <hr className="bg-black" />
