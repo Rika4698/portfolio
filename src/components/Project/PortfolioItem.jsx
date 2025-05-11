@@ -33,85 +33,76 @@ const PortfolioItem = ({
         </p>
       </div>
       {modal && (
-        <div className="portfolio__modal   fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-60 overflow-y-auto ">
-        <div className="portfolio__modal-content  text-white bg-gray-800 p-6 rounded-2xl md:w-[700px] lg:w-[750px] min-h-[350px]  mx-4  md:mt-20 overflow-y-auto ">
-            <button
-              className="w-10 h-10 rounded-full bg-sky-400 hover:bg-sky-600 -ml-1 mt-0 "
-              onClick={toggleModal}
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6 ml-2 text-white hover:text-black"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M6 18L18 6M6 6l12 12"
-                />
-              </svg>
-            </button>
-            {/* ml-[85px] md:ml-[200px] lg:ml-[250px]  */}
-            <h3 className=" text-xl text-center text-purple-300 font-bold -mt-10  mb-4 md:text-3xl mx-12">{title}</h3>
-            <div className="flex pb-4 md:text-lg justify-between underline  md:gap-24 gap-5  text-blue-500 pt-6">
-              <a
-              target="_blank"
-                href={front}
-                
-                className="flex hover:text-green-400  items-center gap-1 xl:font-bold"
-              >
-                <FaGithub></FaGithub>Client
-              </a>
-              {back ? (
-                <a
-                target="_blank"
-                  href={back}
-                 
-                  className="flex hover:text-green-400  items-center gap-1 xl:font-bold"
-                >
-                  <FaGithub></FaGithub>Server
-                </a>
-              ) : (
-                ""
-              )}
+  <div className="fixed inset-0 z-[999] flex items-center justify-center bg-black bg-opacity-60 overflow-y-auto cursor-pointer" onClick={toggleModal}>
+    <div className="bg-gray-900 text-white rounded-2xl max-w-3xl w-full mx-5 md:mx-8 overflow-y-auto shadow-lg my-auto cursor-default" onClick={(e) => e.stopPropagation()}>
 
-              <a
-              target="_blank"
-                href={live}
-                className="flex hover:text-green-400  items-center gap-1 xl:font-bold"
-              >
-                <CgWebsite />
-                Live site{" "}
-              </a>
-            </div>
-            <p className=" text-xl pt-2 font-bold hidden sm:inline">Description:  <span className="text-base text-slate-300 font-medium ml-2">{Description}</span></p>
-            <div className="pt-2">
-              <h3 className="text-xl flex gap-2 font-bold items-center">
-                <MdFeaturedVideo /> Key Features of project :
-              </h3>
-              <div className="pt-3">
-                {features?.map((feature) => (
-                  <div className="space-y-2 text-slate-300 font-medium" key={feature.id}>
-                    <p className="">{feature.f1}</p>
-                    <p className="">{feature.f2}</p>
-                    <p className="">{feature.f3}</p>
-                  </div>
-                ))}
-              </div>
-              <div className="pt-2">
-                <h2 className="text-lg flex gap-2 font-bold items-center">
-                  <GrTechnology />
-                  Technology used :
-                </h2>
-                <p className="mt-2 text-slate-300 font-medium">( {technology} )</p>
-              </div>
-            </div>
-          </div>
+      {/* Close Button */}
+      <div className="flex justify-end p-4">
+        <button
+          className="w-10 h-10 rounded-full bg-sky-500 hover:bg-sky-600 flex items-center justify-center"
+          onClick={toggleModal}
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+
+      {/* Image */}
+      {/* <div className="w-full">
+        <img src={img} alt={title} className="w-full object-cover max-h-96" />
+      </div> */}
+
+      {/* Content */}
+      <div className="px-6 pb-6">
+        <h2 className="text-2xl md:text-3xl font-bold text-purple-300 text-center mt-4 mb-4">{title}</h2>
+
+        {/* Links */}
+        <div className="flex flex-wrap justify-center gap-6 text-blue-400 underline font-semibold mb-4">
+          <a href={front} target="_blank" className="flex items-center gap-2 hover:text-green-400">
+            <FaGithub /> Client
+          </a>
+          {back && (
+            <a href={back} target="_blank" className="flex items-center gap-2 hover:text-green-400">
+              <FaGithub /> Server
+            </a>
+          )}
+          <a href={live} target="_blank" className="flex items-center gap-2 hover:text-green-400">
+            <CgWebsite /> Live Site
+          </a>
         </div>
-      )}
+
+        {/* Description */}
+        <p className="text-base md:text-lg font-semibold mb-2">Description:</p>
+        <p className="text-slate-300 text-sm md:text-base mb-4">{Description}</p>
+
+        {/* Features */}
+        <div>
+          <h3 className="text-lg md:text-xl font-bold flex items-center gap-2 mb-2">
+            <MdFeaturedVideo /> Key Features:
+          </h3>
+          <ul className="list-disc list-inside text-slate-300 text-sm md:text-base space-y-1 mb-4">
+            {features?.map((feature) => (
+              <div key={feature.id}>
+                {feature.f1 && <li>{feature.f1}</li>}
+                {feature.f2 && <li>{feature.f2}</li>}
+                {feature.f3 && <li>{feature.f3}</li>}
+              </div>
+            ))}
+          </ul>
+        </div>
+
+        {/* Technology */}
+        <div>
+          <h3 className="text-lg md:text-xl font-bold flex items-center gap-2 mb-2">
+            <GrTechnology /> Technology Used:
+          </h3>
+          <p className="text-slate-300 text-sm md:text-base">( {technology} )</p>
+        </div>
+      </div>
+    </div>
+  </div>
+)}
       
     </div>
   );

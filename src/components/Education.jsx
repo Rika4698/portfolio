@@ -27,7 +27,7 @@ const Education = () => {
               </svg>
             </div>
             <div className="timeline-start md:text-end mb-10">
-              <time className="font-mono italic">Bachelor of Science(2018-2024)</time>
+              <time className="font-mono italic">Bachelor of Science(2018-2022)</time>
               <div className="text-base font-black md:text-lg">Institute of Science Trade & Technology</div>B.Sc(HONS) in Computer Science & Engineering
             </div>
             <hr className="bg-black" />

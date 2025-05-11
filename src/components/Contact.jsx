@@ -53,9 +53,9 @@ const Contact = () => {
           Feel free to Contact me by submitting the form below and I will get
           back to you as soon as possible
         </p>
-        <div className="flex flex-col lg:flex-row lg:items-center gap-16 py-20 lg:px-0">
+        <div className=" flex flex-col lg:flex-row lg:items-center gap-16 py-20 lg:px-0">
           <div
-            className=" space-y-10 ml-12 md:ml-52 md:text-xl lg:mx-12 xl:mx-10"
+            className=" space-y-10 grid justify-center items-center"
             data-aos="fade-right"
             data-aos-duration="1000"
           >
