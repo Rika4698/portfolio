@@ -1,9 +1,10 @@
 import work1 from "../pic/survey.jpg";
-import work2 from "../pic/work wave.jpg";
-import work3 from "../pic/brand.jpg";
-import work4 from "../pic/tech.jpg";
-import work5 from "../pic/donation.jpg";
-import work6 from "../pic/summer.jpg";
+import work2 from "../pic/blog.jpg";
+import work3 from "../pic/work wave.jpg";
+import work4 from "../pic/brand.jpg";
+import work5 from "../pic/tech.jpg";
+import work6 from "../pic/donation.jpg";
+import work7 from "../pic/summer.jpg";
 // import work7 from "../../../Portfolios/personal-portfolio/src/assets/bistro.png";
 // import work8 from "../../../Portfolios/personal-portfolio/src/assets/f.png";
 // import work9 from "../../../Portfolios/personal-portfolio/src/assets/summer.png";
@@ -41,6 +42,33 @@ export const portfolio = [
     {
       id: 2,
       img: work2,
+      title: "Blogger Platform",
+      front: "https://github.com/Rika4698/blog-app",
+      live: "https://blog-app-xi-ruby-23.vercel.app/",
+      Description: "Blogger is a blog platform where users can explore public blog posts and subscribers can access full content.",
+      features: [
+        {
+          id: 1,
+          f1: "1. All blogs are publicly listed by the categories on the homepage.",
+        },
+        {
+          id: 2,
+          f2: "2. Secure user login and session handling with NextAuth.js.",
+        },
+        {
+          id: 3,
+          f3: "3. AI-Assisted blog creation (Title, Description, Conclusion).",
+        },
+        {
+          id: 4,
+          f3: "4. Blog panel where user can manage blogs and subscriptions.",
+        },
+      ],
+      technology:"Next.js, Tailwind CSS, MongoDB (via Mongoose), NextAuth.js (authentication), Gemini API, Cloudinary, Vercel."
+    },
+    {
+      id: 3,
+      img: work3,
       title: "Work Wave",
       front: "https://github.com/Rika4698/online-job-marketplaces-client",
       back: "https://github.com/Rika4698/polling-and-surveys-application-server",
@@ -63,8 +91,8 @@ export const portfolio = [
       technology:"HTML, CSS, Tailwind, JavaScript, React, MongoDB, JWT, Stripe, Github, Node.js, Express.Js, React-hook-form, React-router-dom, Node.js, Firebase etc."
     },
     {
-      id: 3,
-      img: work3,
+      id: 4,
+      img: work4,
       title: "SR Food & Beverage Ltd",
       front: "https://github.com/Rika4698/food-and-beverage-website-client",
       back: "https://github.com/Rika4698/food-beverage-website-server",
@@ -87,8 +115,8 @@ export const portfolio = [
       technology:"HTML, Css, Tailwind, JavaScript, React, MongoDB, Express.Js, Vercel, Node.js, Firebase etc."
     },
     {
-      id: 4,
-      img: work4,
+      id: 5,
+      img: work5,
       title: "R4 Tech Skill",
       front: "https://github.com/Rika4698/educational-training-event-management",
       
@@ -111,8 +139,8 @@ export const portfolio = [
       technology:"HTML, CSS, Tailwind, JavaScript, React,React-rating,aos, Github , Firebase etc."
     },
     {
-      id: 5,
-      img: work5,
+      id: 6,
+      img: work6,
       title: "Donation Campaign",
       front: "https://github.com/Rika4698/donation-campaign-website",
       live: "https://donation-campaign-assignment-kmrcozy4l.vercel.app/",
@@ -134,8 +162,8 @@ export const portfolio = [
       technology:"HTML, CSS, Tailwind, JavaScript, React, ES6, Vercel etc."
     },
     {
-      id: 6,
-      img: work6,
+      id: 7,
+      img: work7,
       title: "Summer Sale",
       front: "https://github.com/Rika4698/Summer-Sale-Website",
       live: "https://robust-quilt.surge.sh/",
